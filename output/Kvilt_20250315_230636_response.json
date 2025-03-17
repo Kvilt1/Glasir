@@ -1,0 +1,22 @@
+{
+  "url": "https://tg.glasir.fo/132n/",
+  "status_code": 200,
+  "headers": {
+    "Server": "nginx/1.16.0",
+    "Date": "Sat, 15 Mar 2025 23:06:36 GMT",
+    "Content-Type": "text/html; Charset=utf-8; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "X-Powered-By": "Express",
+    "cache-control": "private",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Encoding": "gzip"
+  },
+  "cookies": {},
+  "content_length": 10124,
+  "content_type": "text/html; Charset=utf-8; charset=utf-8",
+  "elapsed": "0:00:00.105981",
+  "encoding": "utf-8",
+  "timestamp": "20250315_230636",
+  "content_preview": "\n\n<html>\n<head>\n\t<meta http-equiv=\"Content-Language\" content=\"fo\">\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\t<TITLE>Glasir - T\u00edmaGlasi\u00f0</TITLE>\n\t<link rel=\"stylesheet\" href=\"style_f.css\" type=\"text/css\">\n\t<STYLE>\n\t\tBODY, TD \t{\tfont-family: Verdana, Arial; font-size: 8pt }\n\t\tTABLE\t{\tborder-collapse: collapse;\n\t\t\t\t\t\t}\n\n\n\t\tH1 \t\t\t{\tfont-size: x-large; color: BLACK }\n\t\tH2 \t\t\t{\tfont-size: large; color: BLACK }\n\t\ttr, td \t\t{\tline-height:20px;\n\t\t\t}\n\t\t.skematd\t{ \tborder: #7a7261 1px solid;\n\t\t\t\t\t\twidth:150px;    \n\t\t\t\t\t}\n\t\t.verttd \t{\ttext-align: right ;\n\t\t\t\t\t\tvertical-align: top  ;\n\t\t\t\t\t\tborder: #7a7261 1px solid;\n\t\t\t\t\t\ttable-layout:fixed\n\t\t\t\t\t}\n\n\t\t.holdoversigttd \t{\ttext-align: left ;\n\t\t\t\t\t\tvertical-align: text-top  ;\n\t\t\t\t\t\tborder: #7a7261 1px solid;\n\t\t\t\t\t}\n\t \n\t\t.vText \t\t{\t\n\t\t\n\t\t\n\t\t\t\t\t\t-moz-transform: rotate(90deg); \t\n\t\t\t\t\t\t-o-transform: rotate(90deg);\n\t\t\t\t\t\t-webkit-transform: rotate(90deg);\n\t\t\t\t\t\ttransform-origin: 50% 100%;\n\t\t\t\t\t\twriting-mode:tb-rl; \n\t\t\t\t\t\twidth:15px;..."
+}

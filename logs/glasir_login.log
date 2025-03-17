@@ -1,0 +1,220 @@
+2025-03-15 22:17:42,179 [INFO] glasir_gui: GUI application started
+2025-03-15 22:18:09,774 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:18:09,774 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:18:09,774 [INFO] glasir_main: No session data found for profile: Kvilt
+2025-03-15 22:18:09,774 [INFO] glasir_main: No session data found for profile: Kvilt
+2025-03-15 22:18:09,774 [INFO] glasir_gui: Initialized session for profile: Kvilt
+2025-03-15 22:18:09,774 [INFO] glasir_gui: Switched to profile: Kvilt
+2025-03-15 22:18:16,008 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 22:18:16,008 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:18:16,008 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:18:16,008 [INFO] glasir_main: No session data, using browser login
+2025-03-15 22:18:16,008 [INFO] glasir_main: No session data, using browser login
+2025-03-15 22:18:16,008 [INFO] glasir_browser: Starting browser-based login for profile: Kvilt
+2025-03-15 22:18:17,449 [INFO] glasir_browser: Navigating to https://tg.glasir.fo
+2025-03-15 22:18:17,758 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/ -> /login (Status: 302)
+2025-03-15 22:18:17,758 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/login -> https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0 (Status: 302)
+2025-03-15 22:18:17,976 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0
+2025-03-15 22:18:18,709 [INFO] glasir_browser: Current state: MICROSOFT_LOGIN
+2025-03-15 22:18:19,971 [WARNING] glasir_browser: Error on Microsoft login page: Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2025-03-15 22:18:20,024 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:20,526 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:20,529 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:20,542 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:20,553 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:49,525 [WARNING] glasir_browser: Failed to reach final destination. Current URL: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=SCOJB50DNnFi2VyX8M6N3am4IuAG65h9&nonce=t8-7-AXVrZvIpjlEaI82iHzSOgyLK2M-&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:18:49,818 [INFO] glasir_main: Browser login successful
+2025-03-15 22:18:49,818 [INFO] glasir_main: Browser login successful
+2025-03-15 22:18:49,819 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:18:49,819 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:18:49,821 [INFO] glasir_main: Login completed in 33.81 seconds
+2025-03-15 22:18:49,821 [INFO] glasir_main: Login completed in 33.81 seconds
+2025-03-15 22:18:49,827 [INFO] glasir_gui: Login completed successfully
+2025-03-15 22:19:01,162 [INFO] glasir_gui: Application shutting down
+2025-03-15 22:23:38,309 [INFO] glasir_gui: GUI application started
+2025-03-15 22:23:38,355 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:23:38,355 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:23:38,356 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 22:23:38,356 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 22:23:38,358 [ERROR] glasir_gui: Error checking session validity: 'bool' object is not iterable
+2025-03-15 22:23:38,358 [INFO] glasir_gui: Initialized session for profile: Kvilt
+2025-03-15 22:23:41,161 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 22:23:41,162 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:23:41,162 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:23:41,163 [ERROR] glasir_gui: Error in async operation: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\rokur\Desktop\Glasir\glasir_gui.py", line 53, in _run_and_store
+    result = await coro
+             ^^^^^^^^^^
+  File "C:\Users\rokur\Desktop\Glasir\glasir_main.py", line 343, in login
+    is_valid, reason = self.check_session_validity()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rokur\Desktop\Glasir\glasir_main.py", line 326, in check_session_validity
+    return self.http.check_session_validity(self.session_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rokur\Desktop\Glasir\glasir_http.py", line 102, in check_session_validity
+    for cookie in session_data.get("cookies", []):
+TypeError: 'bool' object is not iterable
+2025-03-15 22:23:41,179 [ERROR] glasir_gui: Login failed
+2025-03-15 22:23:46,786 [INFO] glasir_gui: Application shutting down
+2025-03-15 22:32:01,763 [INFO] glasir_gui: GUI application started
+2025-03-15 22:32:01,806 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:32:01,806 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 22:32:01,806 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 22:32:01,806 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 22:32:01,806 [INFO] glasir_gui: Initialized session for profile: Kvilt
+2025-03-15 22:32:09,451 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 22:32:09,453 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:09,453 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:09,455 [INFO] glasir_main: Session invalid: No cookies found in session data, using browser login
+2025-03-15 22:32:09,455 [INFO] glasir_main: Session invalid: No cookies found in session data, using browser login
+2025-03-15 22:32:09,459 [INFO] glasir_browser: Starting browser-based login for profile: Kvilt
+2025-03-15 22:32:10,224 [INFO] glasir_browser: Navigating to https://tg.glasir.fo
+2025-03-15 22:32:10,488 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/ -> /login (Status: 302)
+2025-03-15 22:32:10,488 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/login -> https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0 (Status: 302)
+2025-03-15 22:32:10,797 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0
+2025-03-15 22:32:10,992 [INFO] glasir_browser: Current state: MICROSOFT_LOGIN
+2025-03-15 22:32:11,157 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:11,552 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:11,554 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:11,567 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:11,579 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:12,502 [INFO] glasir_browser: Filling in email address: rm3112z9@glasir.fo
+2025-03-15 22:32:12,934 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=4KHpybbsKd-NSzqC5kixsV5fOU5ltfZK&nonce=f55YHdXCiCbZXO3N-4H5eSKJlmvt4iw3&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 22:32:15,383 [INFO] glasir_browser: URL changed to: https://adfs.glasir.fo/adfs/ls/?client-request-id=bfaccd9f-aa56-4bbe-88cf-61703ab0575f&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA9aBNhAIbvcklMA5oYVFyEDAXF-OX-c3eBgkkoSXs2qRzN3xK-u_suuebnLt9dWnsu4pSx4OYiOAaHIgpSxAouEhA7uOgkTraDiDh0tFJwdnnhXV6e94lHhCyTZW5SXJbJLyIWKhI0TCCwsgQEyCAgK7IMJJ3TDZ7RdV3icCqefPLh2UF99kadfoRufq_RmZHXe77venma9rvZ7gB6Ns5aDg0nfo92XDSyTRojf4JHr0jykCS_k-QslLZEsVUxmyW7pLebNb4KhIqINHV1MNzyBXub_xJK1AqnC9zfcLAdoF-hBcvBw47reP5jKi2oFXdH1z3VBFUtGJfEvn3Pq4tWbUMc-FZbfU4tSjmGywksBIrCIiAg2QAykngAeahznCEIvMTOqWsudix7gNKOZQ3sEepAw0Celz5D_0al8JBnWS5Qbv_7dhgmj8NXYuEkcZVIEzcuM1Q-FouftZMw-TRyqml_ev994t2D1dcvUwcvgkvEPELfzWRKWqYNcY6uq11lXB3e0ZxxprHB5wrLZXcFbtGlIizW4Zq3xOTZ3Si5G43Ooxdd6Hmug30AgwlGAJo_o-T0HLG_8L_i354nTi4czX9_evTw84_KceJWuVrQGjvrEsdK631uRexrrFRY7uVU2tDKm8W1JrMZ9LfFltlsLe0lia9J4g81&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc=
+2025-03-15 22:32:15,495 [INFO] glasir_browser: Filling in password on Microsoft page
+2025-03-15 22:32:15,721 [INFO] glasir_browser: Navigation: https://adfs.glasir.fo/adfs/ls/?client-request-id=bfaccd9f-aa56-4bbe-88cf-61703ab0575f&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA9aBNhAIbvcklMA5oYVFyEDAXF-OX-c3eBgkkoSXs2qRzN3xK-u_suuebnLt9dWnsu4pSx4OYiOAaHIgpSxAouEhA7uOgkTraDiDh0tFJwdnnhXV6e94lHhCyTZW5SXJbJLyIWKhI0TCCwsgQEyCAgK7IMJJ3TDZ7RdV3icCqefPLh2UF99kadfoRufq_RmZHXe77venma9rvZ7gB6Ns5aDg0nfo92XDSyTRojf4JHr0jykCS_k-QslLZEsVUxmyW7pLebNb4KhIqINHV1MNzyBXub_xJK1AqnC9zfcLAdoF-hBcvBw47reP5jKi2oFXdH1z3VBFUtGJfEvn3Pq4tWbUMc-FZbfU4tSjmGywksBIrCIiAg2QAykngAeahznCEIvMTOqWsudix7gNKOZQ3sEepAw0Celz5D_0al8JBnWS5Qbv_7dhgmj8NXYuEkcZVIEzcuM1Q-FouftZMw-TRyqml_ev994t2D1dcvUwcvgkvEPELfzWRKWqYNcY6uq11lXB3e0ZxxprHB5wrLZXcFbtGlIizW4Zq3xOTZ3Si5G43Ooxdd6Hmug30AgwlGAJo_o-T0HLG_8L_i354nTi4czX9_evTw84_KceJWuVrQGjvrEsdK631uRexrrFRY7uVU2tDKm8W1JrMZ9LfFltlsLe0lia9J4g81&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc= -> https://adfs.glasir.fo:443/adfs/ls/?client-request-id=bfaccd9f-aa56-4bbe-88cf-61703ab0575f&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA9aBNhAIbvcklMA5oYVFyEDAXF-OX-c3eBgkkoSXs2qRzN3xK-u_suuebnLt9dWnsu4pSx4OYiOAaHIgpSxAouEhA7uOgkTraDiDh0tFJwdnnhXV6e94lHhCyTZW5SXJbJLyIWKhI0TCCwsgQEyCAgK7IMJJ3TDZ7RdV3icCqefPLh2UF99kadfoRufq_RmZHXe77venma9rvZ7gB6Ns5aDg0nfo92XDSyTRojf4JHr0jykCS_k-QslLZEsVUxmyW7pLebNb4KhIqINHV1MNzyBXub_xJK1AqnC9zfcLAdoF-hBcvBw47reP5jKi2oFXdH1z3VBFUtGJfEvn3Pq4tWbUMc-FZbfU4tSjmGywksBIrCIiAg2QAykngAeahznCEIvMTOqWsudix7gNKOZQ3sEepAw0Celz5D_0al8JBnWS5Qbv_7dhgmj8NXYuEkcZVIEzcuM1Q-FouftZMw-TRyqml_ev994t2D1dcvUwcvgkvEPELfzWRKWqYNcY6uq11lXB3e0ZxxprHB5wrLZXcFbtGlIizW4Zq3xOTZ3Si5G43Ooxdd6Hmug30AgwlGAJo_o-T0HLG_8L_i354nTi4czX9_evTw84_KceJWuVrQGjvrEsdK631uRexrrFRY7uVU2tDKm8W1JrMZ9LfFltlsLe0lia9J4g81&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc= (Status: 302)
+2025-03-15 22:32:15,760 [INFO] glasir_browser: URL changed to: https://adfs.glasir.fo/adfs/ls/?client-request-id=bfaccd9f-aa56-4bbe-88cf-61703ab0575f&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA9aBNhAIbvcklMA5oYVFyEDAXF-OX-c3eBgkkoSXs2qRzN3xK-u_suuebnLt9dWnsu4pSx4OYiOAaHIgpSxAouEhA7uOgkTraDiDh0tFJwdnnhXV6e94lHhCyTZW5SXJbJLyIWKhI0TCCwsgQEyCAgK7IMJJ3TDZ7RdV3icCqefPLh2UF99kadfoRufq_RmZHXe77venma9rvZ7gB6Ns5aDg0nfo92XDSyTRojf4JHr0jykCS_k-QslLZEsVUxmyW7pLebNb4KhIqINHV1MNzyBXub_xJK1AqnC9zfcLAdoF-hBcvBw47reP5jKi2oFXdH1z3VBFUtGJfEvn3Pq4tWbUMc-FZbfU4tSjmGywksBIrCIiAg2QAykngAeahznCEIvMTOqWsudix7gNKOZQ3sEepAw0Celz5D_0al8JBnWS5Qbv_7dhgmj8NXYuEkcZVIEzcuM1Q-FouftZMw-TRyqml_ev994t2D1dcvUwcvgkvEPELfzWRKWqYNcY6uq11lXB3e0ZxxprHB5wrLZXcFbtGlIizW4Zq3xOTZ3Si5G43Ooxdd6Hmug30AgwlGAJo_o-T0HLG_8L_i354nTi4czX9_evTw84_KceJWuVrQGjvrEsdK631uRexrrFRY7uVU2tDKm8W1JrMZ9LfFltlsLe0lia9J4g81&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc=
+2025-03-15 22:32:16,097 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 22:32:16,194 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 22:32:16,195 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 22:32:16,225 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 22:32:16,229 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 22:32:17,003 [INFO] glasir_browser: Clicking 'Yes' on Stay signed in prompt
+2025-03-15 22:32:17,350 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/kmsi
+2025-03-15 22:32:17,857 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/auth/openid/return -> / (Status: 302)
+2025-03-15 22:32:17,877 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/ -> /132n/ (Status: 302)
+2025-03-15 22:32:17,983 [INFO] glasir_browser: URL changed to: https://tg.glasir.fo/132n/
+2025-03-15 22:32:18,806 [INFO] glasir_browser: Reached final destination URL
+2025-03-15 22:32:21,825 [INFO] glasir_browser: Login successful!
+2025-03-15 22:32:21,942 [INFO] glasir_browser: Collected 29 cookies
+2025-03-15 22:32:25,058 [INFO] glasir_main: Browser login successful
+2025-03-15 22:32:25,058 [INFO] glasir_main: Browser login successful
+2025-03-15 22:32:25,058 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:25,058 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:25,058 [INFO] glasir_main: Login completed in 15.60 seconds
+2025-03-15 22:32:25,058 [INFO] glasir_main: Login completed in 15.60 seconds
+2025-03-15 22:32:25,058 [INFO] glasir_gui: Login completed successfully
+2025-03-15 22:32:25,058 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 22:32:31,652 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 22:32:31,654 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:31,654 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:31,656 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 22:32:31,658 [INFO] glasir_main: Using existing valid session
+2025-03-15 22:32:31,658 [INFO] glasir_main: Using existing valid session
+2025-03-15 22:32:31,662 [INFO] glasir_http: Attempting to access target URL with requests: https://tg.glasir.fo/132n/
+2025-03-15 22:32:31,757 [INFO] glasir_http: Response status code: 200
+2025-03-15 22:32:31,757 [INFO] glasir_http: Final URL: https://tg.glasir.fo/132n/
+2025-03-15 22:32:31,757 [INFO] glasir_http: Successfully accessed the target page
+2025-03-15 22:32:31,772 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 22:32:31,772 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 22:32:31,776 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:31,776 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:31,778 [INFO] glasir_main: Login completed in 0.12 seconds
+2025-03-15 22:32:31,778 [INFO] glasir_main: Login completed in 0.12 seconds
+2025-03-15 22:32:31,785 [INFO] glasir_gui: Login completed successfully
+2025-03-15 22:32:31,785 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 22:32:35,023 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 22:32:35,023 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:35,023 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 22:32:35,023 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 22:32:35,023 [INFO] glasir_main: Using existing valid session
+2025-03-15 22:32:35,023 [INFO] glasir_main: Using existing valid session
+2025-03-15 22:32:35,036 [INFO] glasir_http: Attempting to access target URL with requests: https://tg.glasir.fo/132n/
+2025-03-15 22:32:35,079 [INFO] glasir_http: Response status code: 200
+2025-03-15 22:32:35,080 [INFO] glasir_http: Final URL: https://tg.glasir.fo/132n/
+2025-03-15 22:32:35,080 [INFO] glasir_http: Successfully accessed the target page
+2025-03-15 22:32:35,080 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 22:32:35,080 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 22:32:35,091 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:35,091 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 22:32:35,093 [INFO] glasir_main: Login completed in 0.07 seconds
+2025-03-15 22:32:35,093 [INFO] glasir_main: Login completed in 0.07 seconds
+2025-03-15 22:32:35,097 [INFO] glasir_gui: Login completed successfully
+2025-03-15 22:32:35,097 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 22:34:01,397 [INFO] glasir_gui: Application shutting down
+2025-03-15 23:06:31,602 [INFO] glasir_gui: GUI application started
+2025-03-15 23:06:31,633 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 23:06:31,633 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 23:06:31,633 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 23:06:31,633 [INFO] glasir_main: Successfully loaded session data for profile: Kvilt
+2025-03-15 23:06:31,633 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 23:06:31,633 [INFO] glasir_gui: Initialized session for profile: Kvilt
+2025-03-15 23:06:36,111 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 23:06:36,111 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 23:06:36,111 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 23:06:36,111 [INFO] glasir_http: Session was successfully used in the last hour, skipping validation
+2025-03-15 23:06:36,111 [INFO] glasir_main: Using existing valid session
+2025-03-15 23:06:36,111 [INFO] glasir_main: Using existing valid session
+2025-03-15 23:06:36,126 [INFO] glasir_http: Attempting to access target URL with requests: https://tg.glasir.fo/132n/
+2025-03-15 23:06:36,235 [INFO] glasir_http: Response status code: 200
+2025-03-15 23:06:36,235 [INFO] glasir_http: Final URL: https://tg.glasir.fo/132n/
+2025-03-15 23:06:36,235 [INFO] glasir_http: Successfully accessed the target page
+2025-03-15 23:06:36,235 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 23:06:36,235 [INFO] glasir_main: HTTP login successful with existing session
+2025-03-15 23:06:36,245 [ERROR] glasir_main: Failed to save session data: Object of type Response is not JSON serializable
+2025-03-15 23:06:36,245 [ERROR] glasir_main: Failed to save session data: Object of type Response is not JSON serializable
+2025-03-15 23:06:36,248 [INFO] glasir_main: Login completed in 0.14 seconds
+2025-03-15 23:06:36,248 [INFO] glasir_main: Login completed in 0.14 seconds
+2025-03-15 23:06:36,250 [INFO] glasir_gui: Login completed successfully
+2025-03-15 23:06:36,250 [ERROR] glasir_gui: Error checking session validity: 'bool' object is not iterable
+2025-03-15 23:06:50,575 [INFO] glasir_gui: Application shutting down
+2025-03-15 23:09:56,499 [INFO] glasir_gui: GUI application started
+2025-03-15 23:09:56,542 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 23:09:56,542 [INFO] glasir_main: Successfully loaded credentials for profile: Kvilt
+2025-03-15 23:09:56,543 [ERROR] glasir_main: Error loading session data: Expecting value: line 3 column 16 (char 38)
+2025-03-15 23:09:56,543 [ERROR] glasir_main: Error loading session data: Expecting value: line 3 column 16 (char 38)
+2025-03-15 23:09:56,543 [INFO] glasir_gui: Initialized session for profile: Kvilt
+2025-03-15 23:10:00,266 [INFO] glasir_gui: Starting login with profile: Kvilt
+2025-03-15 23:10:00,266 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 23:10:00,266 [INFO] glasir_main: Starting login process for profile: Kvilt
+2025-03-15 23:10:00,282 [INFO] glasir_main: No session data, using browser login
+2025-03-15 23:10:00,282 [INFO] glasir_main: No session data, using browser login
+2025-03-15 23:10:00,282 [INFO] glasir_browser: Starting browser-based login for profile: Kvilt
+2025-03-15 23:10:01,026 [INFO] glasir_browser: Navigating to https://tg.glasir.fo
+2025-03-15 23:10:01,090 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/ -> /login (Status: 302)
+2025-03-15 23:10:01,090 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/login -> https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0 (Status: 302)
+2025-03-15 23:10:01,327 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0
+2025-03-15 23:10:01,508 [INFO] glasir_browser: Current state: MICROSOFT_LOGIN
+2025-03-15 23:10:01,672 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:02,213 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:02,215 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:02,225 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:02,234 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:03,153 [INFO] glasir_browser: Filling in email address: rm3112z9@glasir.fo
+2025-03-15 23:10:03,464 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/7602641a-991e-4e8c-8e73-a3ab22c44371/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Ftg.glasir.fo%2Fauth%2Fopenid%2Freturn&response_type=code%20id_token&response_mode=form_post&client_id=e1a97acd-4187-4a0e-8988-7b2bc30bbb72&state=22UNR-6P32v-cZR_FrCBBhhS4GmWp9uj&nonce=TN360NdEaP9jJUfpn7p5Eu9sF80HzRC6&scope=profile%20offline_access%20openid&x-client-SKU=passport-azure-ad&x-client-Ver=4.0.0&sso_reload=true
+2025-03-15 23:10:05,863 [INFO] glasir_browser: URL changed to: https://adfs.glasir.fo/adfs/ls/?client-request-id=93f9b8a1-fb5a-4140-bd32-8720e4c56cc1&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA_aBNRAMbvcklMA5pYUFyEGwqKeLn33l3vT6DQS0mNTU1iLrGSJb77l7s0lzvfXYxk00XdCm4Oio4dRJxKQVBExCx21UnEoXQQcWrpYqXg7PLBt3z8vl82JRZAAVxiUAEU52yIVRmbFidCReZEDGxOURWFkw1kmAIwDENGZDabf7518LhzuKi9QQ_YHx8G7zbpC24ch1GR5-NeoTfAkUcKTsDjUezyQWgPPYsndjwiwy2a3qHpXZreTLCtmiCBmlXGDbW_0nbCoRzOl0dqtKyAyqS5JH1N5Ora0QL6GwHxJvbvxIwTEL8bBlH8hGERateanNQQ0B3O7DS7y2SpVHJdXbzir4XqqP-amZMlgCQRYk5Voc2JtmJyii0LHBawgZApioIMp8z5kASON7DZwHEG3tDuYtO0o4g9Rv_OzBJfgBBN1MV_33aS9F7ybCaZp85RLHXxDGCKmUz2uO0n6RepI033bgUfc9sv60_fu_yB_oiapnjBAFa1XVqVpNtkvXptACpOg4jQ1eEquFmG_Hobjq9W19AKAQtCEW6k6Y10epo-HeIoCgMSc3gyIjaHrV9p-uEJanvmf8W_PUntnzr8_OnZ7v0vPyt7ucua4Zd6mjZWNCzrRnmsN3X-esmbdyv1G82Jf9dvtfhQ6DT6lrnwKk99y1N_AA2&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc=
+2025-03-15 23:10:06,169 [INFO] glasir_browser: Filling in password on Microsoft page
+2025-03-15 23:10:06,366 [INFO] glasir_browser: Navigation: https://adfs.glasir.fo/adfs/ls/?client-request-id=93f9b8a1-fb5a-4140-bd32-8720e4c56cc1&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA_aBNRAMbvcklMA5pYUFyEGwqKeLn33l3vT6DQS0mNTU1iLrGSJb77l7s0lzvfXYxk00XdCm4Oio4dRJxKQVBExCx21UnEoXQQcWrpYqXg7PLBt3z8vl82JRZAAVxiUAEU52yIVRmbFidCReZEDGxOURWFkw1kmAIwDENGZDabf7518LhzuKi9QQ_YHx8G7zbpC24ch1GR5-NeoTfAkUcKTsDjUezyQWgPPYsndjwiwy2a3qHpXZreTLCtmiCBmlXGDbW_0nbCoRzOl0dqtKyAyqS5JH1N5Ora0QL6GwHxJvbvxIwTEL8bBlH8hGERateanNQQ0B3O7DS7y2SpVHJdXbzir4XqqP-amZMlgCQRYk5Voc2JtmJyii0LHBawgZApioIMp8z5kASON7DZwHEG3tDuYtO0o4g9Rv_OzBJfgBBN1MV_33aS9F7ybCaZp85RLHXxDGCKmUz2uO0n6RepI033bgUfc9sv60_fu_yB_oiapnjBAFa1XVqVpNtkvXptACpOg4jQ1eEquFmG_Hobjq9W19AKAQtCEW6k6Y10epo-HeIoCgMSc3gyIjaHrV9p-uEJanvmf8W_PUntnzr8_OnZ7v0vPyt7ucua4Zd6mjZWNCzrRnmsN3X-esmbdyv1G82Jf9dvtfhQ6DT6lrnwKk99y1N_AA2&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc= -> https://adfs.glasir.fo:443/adfs/ls/?client-request-id=93f9b8a1-fb5a-4140-bd32-8720e4c56cc1&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA_aBNRAMbvcklMA5pYUFyEGwqKeLn33l3vT6DQS0mNTU1iLrGSJb77l7s0lzvfXYxk00XdCm4Oio4dRJxKQVBExCx21UnEoXQQcWrpYqXg7PLBt3z8vl82JRZAAVxiUAEU52yIVRmbFidCReZEDGxOURWFkw1kmAIwDENGZDabf7518LhzuKi9QQ_YHx8G7zbpC24ch1GR5-NeoTfAkUcKTsDjUezyQWgPPYsndjwiwy2a3qHpXZreTLCtmiCBmlXGDbW_0nbCoRzOl0dqtKyAyqS5JH1N5Ora0QL6GwHxJvbvxIwTEL8bBlH8hGERateanNQQ0B3O7DS7y2SpVHJdXbzir4XqqP-amZMlgCQRYk5Voc2JtmJyii0LHBawgZApioIMp8z5kASON7DZwHEG3tDuYtO0o4g9Rv_OzBJfgBBN1MV_33aS9F7ybCaZp85RLHXxDGCKmUz2uO0n6RepI033bgUfc9sv60_fu_yB_oiapnjBAFa1XVqVpNtkvXptACpOg4jQ1eEquFmG_Hobjq9W19AKAQtCEW6k6Y10epo-HeIoCgMSc3gyIjaHrV9p-uEJanvmf8W_PUntnzr8_OnZ7v0vPyt7ucua4Zd6mjZWNCzrRnmsN3X-esmbdyv1G82Jf9dvtfhQ6DT6lrnwKk99y1N_AA2&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc= (Status: 302)
+2025-03-15 23:10:06,406 [INFO] glasir_browser: URL changed to: https://adfs.glasir.fo/adfs/ls/?client-request-id=93f9b8a1-fb5a-4140-bd32-8720e4c56cc1&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAjZA_aBNRAMbvcklMA5pYUFyEGwqKeLn33l3vT6DQS0mNTU1iLrGSJb77l7s0lzvfXYxk00XdCm4Oio4dRJxKQVBExCx21UnEoXQQcWrpYqXg7PLBt3z8vl82JRZAAVxiUAEU52yIVRmbFidCReZEDGxOURWFkw1kmAIwDENGZDabf7518LhzuKi9QQ_YHx8G7zbpC24ch1GR5-NeoTfAkUcKTsDjUezyQWgPPYsndjwiwy2a3qHpXZreTLCtmiCBmlXGDbW_0nbCoRzOl0dqtKyAyqS5JH1N5Ora0QL6GwHxJvbvxIwTEL8bBlH8hGERateanNQQ0B3O7DS7y2SpVHJdXbzir4XqqP-amZMlgCQRYk5Voc2JtmJyii0LHBawgZApioIMp8z5kASON7DZwHEG3tDuYtO0o4g9Rv_OzBJfgBBN1MV_33aS9F7ybCaZp85RLHXxDGCKmUz2uO0n6RepI033bgUfc9sv60_fu_yB_oiapnjBAFa1XVqVpNtkvXptACpOg4jQ1eEquFmG_Hobjq9W19AKAQtCEW6k6Y10epo-HeIoCgMSc3gyIjaHrV9p-uEJanvmf8W_PUntnzr8_OnZ7v0vPyt7ucua4Zd6mjZWNCzrRnmsN3X-esmbdyv1G82Jf9dvtfhQ6DT6lrnwKk99y1N_AA2&cbcxt=&username=rm3112z9%40glasir.fo&mkt=&lc=
+2025-03-15 23:10:06,735 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 23:10:06,857 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 23:10:06,858 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 23:10:06,884 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 23:10:06,888 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/login.srf
+2025-03-15 23:10:07,617 [INFO] glasir_browser: Clicking 'Yes' on Stay signed in prompt
+2025-03-15 23:10:07,911 [INFO] glasir_browser: URL changed to: https://login.microsoftonline.com/kmsi
+2025-03-15 23:10:08,361 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/auth/openid/return -> / (Status: 302)
+2025-03-15 23:10:08,382 [INFO] glasir_browser: Navigation: https://tg.glasir.fo/ -> /132n/ (Status: 302)
+2025-03-15 23:10:08,462 [INFO] glasir_browser: URL changed to: https://tg.glasir.fo/132n/
+2025-03-15 23:10:09,285 [INFO] glasir_browser: Reached final destination URL
+2025-03-15 23:10:12,303 [INFO] glasir_browser: Login successful!
+2025-03-15 23:10:15,520 [INFO] glasir_main: Browser login successful
+2025-03-15 23:10:15,520 [INFO] glasir_main: Browser login successful
+2025-03-15 23:10:15,535 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 23:10:15,535 [INFO] glasir_main: Saved session data for profile: Kvilt
+2025-03-15 23:10:15,535 [INFO] glasir_main: Login completed in 15.25 seconds
+2025-03-15 23:10:15,535 [INFO] glasir_main: Login completed in 15.25 seconds
+2025-03-15 23:10:15,535 [INFO] glasir_gui: Login completed successfully
+2025-03-15 23:10:15,535 [ERROR] glasir_gui: Error checking session validity: 'bool' object is not iterable
+2025-03-15 23:10:25,354 [INFO] glasir_gui: Application shutting down
