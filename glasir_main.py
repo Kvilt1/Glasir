@@ -20,6 +20,11 @@ from pathlib import Path
 # Import the other components
 from glasir_browser import GlasirBrowser
 from glasir_http import GlasirHTTP
+try:
+    from glasir_schedule import GlasirSchedule
+except ImportError:
+    # Will be imported dynamically later if needed
+    pass
 
 # Define script directory and ensure it's used for relative paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -681,6 +686,7 @@ async def main(args=None):
                     input("\nPress Enter to continue...")
                     continue
             
+            # Try to login if needed
             try:
                 # Check if session is valid
                 is_valid, reason = glasir.check_session_validity()
@@ -701,8 +707,10 @@ async def main(args=None):
             
             # Import schedule module dynamically to avoid circular imports
             try:
-                # Try to import the schedule module
-                from glasir_schedule import GlasirSchedule
+                # Check if GlasirSchedule is already imported
+                if 'GlasirSchedule' not in globals():
+                    # Import dynamically if needed
+                    from glasir_schedule import GlasirSchedule
                 
                 print("\n=== Export Class Schedule ===")
                 print("1. Export to JSON")
@@ -742,21 +750,27 @@ async def main(args=None):
                     debug_level=args.debug_level
                 )
                 
-                # Export the schedule
-                export_paths = await schedule.export_schedule(format=format_type)
-                
-                if export_paths:
-                    print("\nSchedule exported successfully to:")
-                    for format_name, path in export_paths.items():
-                        print(f"  - {format_name.upper()}: {os.path.basename(path)}")
-                else:
-                    print("\nNo schedule data was exported.")
+                try:
+                    # Export the schedule
+                    export_paths = await schedule.export_schedule(format=format_type)
+                    
+                    if export_paths:
+                        print("\nSchedule exported successfully to:")
+                        for format_name, path in export_paths.items():
+                            print(f"  - {format_name.upper()}: {os.path.basename(path)}")
+                    else:
+                        print("\nNo schedule data was exported.")
+                except Exception as e:
+                    logger.exception(f"Error during schedule export: {str(e)}")
+                    print(f"\nError during schedule export: {str(e)}")
                 
             except ImportError as e:
-                print(f"\nError: Missing required dependencies for schedule export. {str(e)}")
-                print("Run 'pip install pandas icalendar' to install required packages")
+                print(f"\nError: Missing required dependencies for schedule export.")
+                print("Run 'pip install pandas icalendar' to install required packages.")
+                logger.error(f"Import error with schedule module: {str(e)}")
             except Exception as e:
-                print(f"\nError exporting schedule: {str(e)}")
+                print(f"\nUnexpected error with schedule export: {str(e)}")
+                logger.exception(f"Unexpected error with schedule export: {str(e)}")
             
             input("\nPress Enter to continue...")
         

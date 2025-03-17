@@ -2986,7 +2986,29 @@ _**Assistant**_
 
 ---
 
-I'll fix the execution issue with the schedule module:
+I need to fix issues with the schedule export. There might be import errors or session handling problems. Let me make these corrections:
+
+---
+
+```diff
+  from glasir_browser import GlasirBrowser
+  from glasir_http import GlasirHTTP
++ try:
++     from glasir_schedule import GlasirSchedule
++ except ImportError:
++     # Will be imported dynamically later if needed
++     pass
+  
+  # Define script directory and ensure it's used for relative paths
+```
+
+---
+
+Cancelled
+
+---
+
+
 
 ---
 
